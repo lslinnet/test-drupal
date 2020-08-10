@@ -11,13 +11,16 @@ The default supplied `url` node contains 2 fields `slug` and `url`.
 By default the slug field can be empty and the url field is required.
 
 ## Mission
-Your goal is to extend the current TinyUrl module with functionality for GraphQL-based creation of `url` nodes and provide a shortening service for them.
+Your goal is to extend the current TinyUrl module with functionality for automatically generating the slug if none as been supplied.
+Ensure that a call to `/s/<slug>` redirects the user to the supplied url.
+If time allows also add GraphQL mutations for the already defined GraphQL Query of `Url`.
 
 ## Test requirements
-* If no `slug` have been given one is auto generated.
-* Implement mutation in GraphQL for the Url query type – allowing for create and delete of url nodes.
-* Cover `slug` generation with a unit test.
-* On route `/s/<slug>` we should be redirected to corresponding url.
+* `slug` functionality
+  * If no `slug` have been given one is auto generated.
+  * On route `/s/<slug>` we should be redirected to corresponding url.
+* Bonus if you have additional time
+  * Implement mutation in GraphQL for the Url query type – allowing for create and delete of url nodes.
 
 ---
 
@@ -38,6 +41,8 @@ ddev start && ddev install
 The first commands (`ddev start`) boots up the docker containers and adds them to the local routing layer – the second command is a prebundle set of commands that run all commands listed in the next section.
 
 Default login is username `admin` and pass `admin`
+
+Configuration comes from the Installation profile `tinyurlprofile`.
 
 #### Alternative
 If you do it your self you will need to run - assuming you have configured your settings file with credentials for MySQL
