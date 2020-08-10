@@ -1,4 +1,4 @@
-# Laravel Test
+# Drupal Test
 
 ## Background
 This repository contains a Drupal project, which have 2 customizations – We have a module `tinyurl` and a profile `tinyurlprofile`.
