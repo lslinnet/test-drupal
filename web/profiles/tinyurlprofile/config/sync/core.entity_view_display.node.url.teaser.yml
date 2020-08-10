@@ -1,0 +1,24 @@
+uuid: f3bdfefd-25fe-47f4-9cdb-261b83ad1b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.url.field_slug
+    - field.field.node.url.field_url
+    - node.type.url
+  module:
+    - user
+id: node.url.teaser
+targetEntityType: node
+bundle: url
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_slug: true
+  field_url: true

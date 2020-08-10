@@ -1,0 +1,3 @@
+extend type Query {
+  url(id: Int!): Url
+}

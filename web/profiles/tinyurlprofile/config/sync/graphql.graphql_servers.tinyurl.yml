@@ -1,0 +1,15 @@
+uuid: 6498ea5f-b023-49fe-a4b9-d5b5d7184fbd
+langcode: en
+status: true
+dependencies: {  }
+name: tinyurl
+label: 'Tiny url'
+schema: composable
+schema_configuration:
+  composable:
+    extensions:
+      url_extension: url_extension
+endpoint: /graphql
+debug: true
+caching: true
+batching: true

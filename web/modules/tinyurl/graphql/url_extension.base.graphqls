@@ -1,0 +1,5 @@
+type Url {
+  id: Int!
+  slug: String
+  url: String
+}

@@ -1,0 +1,19 @@
+uuid: f5b20bbc-c78a-4b99-a1d9-c9777b3041ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slug
+    - node.type.url
+id: node.url.field_slug
+field_name: field_slug
+entity_type: node
+bundle: url
+label: slug
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

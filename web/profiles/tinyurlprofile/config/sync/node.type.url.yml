@@ -1,0 +1,11 @@
+uuid: 175bb1ac-06b1-4d6e-9394-4313e7c01daf
+langcode: en
+status: true
+dependencies: {  }
+name: url
+type: url
+description: 'A url shortening service which allows for creating, deleting and viewing urls and their shortened version.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

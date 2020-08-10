@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run drupal console inside the web container
+## Usage: drupal [flags] [args]
+## Example: "ddev drupal debug:config:validate" or "ddev drupal generate:twig:extension" or "ddev drupal --version"
+
+drupal $@
