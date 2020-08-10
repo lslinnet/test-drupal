@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## Description: Build the project by running composer install, drush site-install and few other commands.
-## Usage: build
-## Example: "ddev build"
+## Usage: install
+## Example: "ddev install"
 YELLOW='\033[1;33m'
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'
